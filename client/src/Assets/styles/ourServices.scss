@@ -1,0 +1,36 @@
+.ourServices {
+  width: 90%;
+  height: 30vh;
+  margin: auto;
+  text-align: center;
+  z-index: 99;
+  box-shadow: 3px 7px 21px -4px rgba(0, 0, 0, 1);
+  background: rgb(17, 29, 64);
+  background: linear-gradient(
+    68deg,
+    rgba(17, 29, 64, 1) 0%,
+    rgba(0, 38, 105, 1) 100%
+  );
+  margin-top: -40px;
+  z-index: 99;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.serv-card {
+  width: 28%;
+  height: 80%;
+  margin: auto;
+}
+.serv-card img {
+  width: 50px;
+  height: 50px;
+}
+.serv-card h4 {
+  color: white;
+  margin-top: 10px;
+}
+.serv-card text {
+  color: rgb(163, 163, 163);
+}

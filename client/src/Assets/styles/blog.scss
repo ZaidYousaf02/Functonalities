@@ -1,0 +1,101 @@
+.blog-container {
+  width: 90%;
+  height: 100vh;
+  // overflow-y: scroll;
+  overflow: hidden;
+  .blog-box {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+    overflow-y: scroll;
+
+    .blog {
+      width: 80%;
+      height: max-content;
+      box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.5);
+      margin-top: 30px;
+      border: 1px solid;
+      border-radius: 20px;
+      padding: 10px 20px;
+      background-color: white;
+
+      .blog-header {
+        width: max-content;
+        height: 10vh;
+        justify-content: space-evenly;
+        display: flex;
+
+        img {
+          width: 150px;
+          height: 150px;
+        }
+        h3 {
+          margin-left: 20px;
+        }
+      }
+      .blog-des {
+        text-align: left;
+        line-height: 25px;
+        font-size: 20px;
+      }
+    }
+    .blog:hover {
+      cursor: pointer;
+      box-shadow: 8px 8px 5px 0px rgba(0, 103, 163, 0.5);
+    }
+    .img-container {
+      overflow: hidden;
+    }
+    .blog:hover img {
+      transform: scale(1.1);
+      transition: 0.3s ease-in;
+    }
+    .blog:hover .heading3 {
+      color: rgb(0, 103, 163);
+    }
+    .price-container {
+      width: 150px;
+      height: 55px;
+      border: 1px solid;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: auto;
+      background-color: rgb(0, 103, 163);
+      color: white;
+      font-size: 20px;
+      border: none;
+    }
+  }
+}
+
+//media queery
+
+@media screen and (max-width: 400px) {
+  .blog-container {
+    .blog-box {
+      width: 70%;
+      height: max-content;
+      overflow-y: scroll;
+      border: 1px solid;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      .blog {
+        width: 80%;
+        height: 30vh;
+        border: 1px solid;
+        border-radius: 10px;
+        margin-top: 10px;
+        .blog-heading {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

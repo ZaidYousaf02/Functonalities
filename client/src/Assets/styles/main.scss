@@ -1,0 +1,44 @@
+@import "./sidebar.scss";
+@import "./style-assets/typography.scss";
+@import "./navbar.scss";
+@import "./home.scss";
+@import "./dashboard.scss";
+@import "./ourServices.scss";
+@import "./abstract.scss";
+@import "./feature.scss";
+@import "./subComponent/accordion.scss";
+@import "./teamMember.scss";
+@import "./subComponent/TeamCard.scss";
+@import "./blog.scss";
+@import "./style-assets/color.scss";
+@import "./subComponent/button.scss";
+@import "./createprec.scss";
+@import "./patientList.scss";
+@import "./subComponent//search.scss";
+@import "./animation.scss";
+@import "./Imagecarousel.scss";
+@import "./LogInSingUp.scss";
+@import "./edit.scss";
+@import "./subComponent/patient.scss";
+@import "./createPatient.scss";
+@import "./footer.scss";
+@import "./subComponent/CountANimation.scss";
+@import "./subComponent/customBarChart.scss";
+@import "./chat.scss";
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(182, 211, 223);
+  text-transform: capitalize;
+  h1 {
+    font-family: sans-serif;
+  }
+}
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}

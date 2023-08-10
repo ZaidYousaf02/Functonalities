@@ -1,0 +1,50 @@
+.accordion {
+  width: 90%;
+  height: min-content;
+  // border: 1px solid;
+  margin-top: 20px;
+  color: black;
+  border-bottom: 1px solid grey;
+}
+
+.accordtion-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion-header {
+  width: 85%;
+  height: 12vh;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  // border: 1px solid;
+}
+.accordion-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: rgb(0, 120, 189);
+  // color: white;
+}
+.accordion-icon img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.accordion-PostIcon {
+  width: 20px;
+  height: 15px;
+}
+.accordion-content {
+  width: 99%;
+  height: 12vh;
+  // margin: auto;
+  text-align: left;
+  color: rgb(0, 103, 163);
+  margin-top: 0px;
+  font-size: 20px;
+  // line-height: 40px;
+}

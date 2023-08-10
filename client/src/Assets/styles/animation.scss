@@ -1,0 +1,79 @@
+.cloud-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Images/fun-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  .cloud-page h2 {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+    display: block;
+  }
+
+  .clouds {
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    top: 140px;
+  }
+  .cloud {
+    display: block;
+    animation: clouds 38s infinite linear;
+  }
+  @keyframes clouds {
+    from {
+      margin-left: 105%;
+      margin-top: 0;
+    }
+    to {
+      margin-top: -105%;
+      margin-top: 0;
+    }
+  }
+  .cloud1 {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+  }
+  .cloud2 {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+  }
+  .cloud3 {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+  }
+  .cloud4 {
+    position: absolute;
+    left: 45%;
+    top: 75%;
+  }
+  .cloud5 {
+    position: absolute;
+    left: 25%;
+    top: -30%;
+  }
+  .cloud6 {
+    position: absolute;
+    left: 5%;
+    top: 85%;
+  }
+  .cloud7 {
+    position: absolute;
+    left: 85%;
+    top: -15%;
+  }
+
+  .cloud8 {
+    position: absolute;
+    left: 85%;
+    top: 85%;
+  }
+}

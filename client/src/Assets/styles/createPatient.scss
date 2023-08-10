@@ -1,0 +1,44 @@
+.form {
+  width: 30vw;
+  height: 60vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  .form-input {
+    width: 80%;
+    height: 13vh;
+    font-size: 23px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    input {
+      width: 100%;
+      height: 6vh;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+      padding-left: 15px;
+      font-weight: 500;
+      font-size: 25px;
+      color: #495055;
+      padding: 10px 15px;
+      border: 2px solid #d9d9d9;
+      outline: none;
+    }
+  }
+  .sub-button {
+    width: 25%;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(0, 103, 163);
+    color: white;
+    font-size: 18px;
+  }
+}
